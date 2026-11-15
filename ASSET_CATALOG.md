@@ -79,3 +79,35 @@ These are collection targets, not claims that assets have already been sourced.
 - Provide optimised GLB variants for runtime; document any decimation, texture resizing or atlas baking.
 - Avoid brand logos, identifiable trademarks and real-person likenesses unless rights are clear.
 - Do not scrape proprietary 3D map data or convert services whose terms prohibit reuse.
+
+## Animated animals (CC0, game-ready)
+
+| Asset | Category | Creator / publisher | Licence | Use in project | Source |
+|---|---|---|---|---|---|
+| Husky, Shiba Inu | Animals / dogs | Quaternius | CC0 1.0 | Dogs walking with residents, park dogs | https://poly.pizza/u/Quaternius |
+| Cat | Animals / cat | Quaternius | CC0 1.0 | Cats in residential gardens | https://poly.pizza/u/Quaternius |
+| Deer, Stag | Animals / wildlife | Quaternius | CC0 1.0 | Herds on meadows and forest edges | https://poly.pizza/u/Quaternius |
+| Fox | Animals / wildlife | Quaternius | CC0 1.0 | Countryside, forest edges | https://poly.pizza/u/Quaternius |
+| Crab | Animals / beach | Quaternius | CC0 1.0 | Beach and shoreline | https://poly.pizza/u/Quaternius |
+
+Files and provenance details: [animals/README.md](animals/README.md). Style is stylised low-poly, matching the current character set; replace with photorealistic models when suitable CC0/CC-BY rigged assets are found.
+
+### Reviewed and not added (2026-11-15)
+
+| Candidate | Reason |
+|---|---|
+| gkjohnson/3d-demo-data vehicles (Ferrari, Lamborghini, Porsche, Range Rover, Jaguar, Jeep, Yamaha) | Mostly CC BY-NC-SA (non-commercial) and real makes/trademarks |
+| ridge-runner-4x4 vehicles (Supra GT300, McLaren MP4/5, Challenger) | Real makes, team and sponsor liveries (trademarks) |
+| Kenney Car Kit (CC0) | Toy-style, ~1,400 triangles per car; less realistic than the game's current procedural cars |
+| Khronos glTF sample "Car Concept" (CC-BY 4.0) | Single 10 MB concept car; too heavy for traffic, no variants |
+| Vitruvian Project digital humans (CC0) | Photoreal but 17–60 MB per file, not rigged for games, unusable in a browser crowd |
+| Mixamo characters/animations | Adobe terms do not allow redistributing raw assets in a public repository |
+
+## Game-ready cars (CC BY 4.0)
+
+| Asset | Category | Creator / publisher | Licence | Use in project | Source |
+|---|---|---|---|---|---|
+| Hypercar, Endurance, Streamliner, 80s Wedge, Rally | Vehicles / original concept cars | drcollect ("Collect Cars") | CC BY 4.0 — credit required | Drivable hero cars, rare traffic, dealer showroom | https://github.com/drcollect/collect-cars |
+
+Files and credit text: [vehicles/README.md](vehicles/README.md).
+

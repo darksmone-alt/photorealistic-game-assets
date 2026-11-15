@@ -274,23 +274,8 @@ v 3.5800 0.4300 0.7750
 v 3.5800 0.4300 0.9850
 v 3.5800 0.4300 0.7730
 v 3.5800 0.4300 0.9870
-o sedan_body
-o front_bumper
-o rear_bumper
-o hood
-o trunk
-o sedan_cabin
-o window_trim_left
-o window_trim_right
-o headlamp_left
-o headlamp_right
-o taillamp_left
-o taillamp_right
-o wheel_FL
-o wheel_FR
-o wheel_RL
-o wheel_RR
 usemtl paint
+o sedan_body
 f 1 2 3 4
 usemtl paint
 f 5 8 7 6
@@ -303,6 +288,7 @@ f 3 7 8 4
 usemtl paint
 f 4 8 5 1
 usemtl trim
+o front_bumper
 f 9 12 11 10
 usemtl trim
 f 13 14 15 16
@@ -315,6 +301,7 @@ f 11 12 16 15
 usemtl trim
 f 12 9 13 16
 usemtl trim
+o rear_bumper
 f 17 20 19 18
 usemtl trim
 f 21 22 23 24
@@ -327,6 +314,7 @@ f 19 20 24 23
 usemtl trim
 f 20 17 21 24
 usemtl paint
+o hood
 f 25 28 27 26
 usemtl paint
 f 29 30 31 32
@@ -339,6 +327,7 @@ f 27 28 32 31
 usemtl paint
 f 28 25 29 32
 usemtl paint
+o trunk
 f 33 36 35 34
 usemtl paint
 f 37 38 39 40
@@ -351,6 +340,7 @@ f 35 36 40 39
 usemtl paint
 f 36 33 37 40
 usemtl paint
+o sedan_cabin
 f 41 42 43 44
 usemtl paint
 f 45 48 47 46
@@ -363,6 +353,7 @@ f 44 43 47 48
 usemtl glass
 f 41 45 46 42
 usemtl trim
+o window_trim_left
 f 49 52 51 50
 usemtl trim
 f 53 54 55 56
@@ -375,6 +366,7 @@ f 51 52 56 55
 usemtl trim
 f 52 49 53 56
 usemtl trim
+o window_trim_right
 f 57 60 59 58
 usemtl trim
 f 61 62 63 64
@@ -387,6 +379,7 @@ f 59 60 64 63
 usemtl trim
 f 60 57 61 64
 usemtl lamp
+o headlamp_left
 f 65 68 67 66
 usemtl lamp
 f 69 70 71 72
@@ -399,6 +392,7 @@ f 67 68 72 71
 usemtl lamp
 f 68 65 69 72
 usemtl lamp
+o headlamp_right
 f 73 76 75 74
 usemtl lamp
 f 77 78 79 80
@@ -411,6 +405,7 @@ f 75 76 80 79
 usemtl lamp
 f 76 73 77 80
 usemtl red
+o taillamp_left
 f 81 84 83 82
 usemtl red
 f 85 86 87 88
@@ -423,6 +418,7 @@ f 83 84 88 87
 usemtl red
 f 84 81 85 88
 usemtl red
+o taillamp_right
 f 89 92 91 90
 usemtl red
 f 93 94 95 96
@@ -435,6 +431,7 @@ f 91 92 96 95
 usemtl red
 f 92 89 93 96
 usemtl rubber
+o wheel_FL
 f 97 98 118 117
 usemtl rubber
 f 137 98 97
@@ -635,6 +632,7 @@ f 139 97 116
 usemtl hub
 f 140 136 117
 usemtl rubber
+o wheel_FR
 f 141 142 162 161
 usemtl rubber
 f 181 142 141
@@ -835,6 +833,7 @@ f 183 141 160
 usemtl hub
 f 184 180 161
 usemtl rubber
+o wheel_RL
 f 185 186 206 205
 usemtl rubber
 f 225 186 185
@@ -1035,6 +1034,7 @@ f 227 185 204
 usemtl hub
 f 228 224 205
 usemtl rubber
+o wheel_RR
 f 229 230 250 249
 usemtl rubber
 f 269 230 229

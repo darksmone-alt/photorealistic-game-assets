@@ -1,6 +1,6 @@
 # Asset catalogue and acquisition plan
 
-Target: photorealistic European metropolis inspired by Frankfurt am Main. This file is the source of truth for approved assets.
+Target: photorealistic European metropolis inspired by Frankfurt am Main. This file is the source of truth for approved assets and candidates.
 
 ## Approval checklist
 For each asset, record:
@@ -16,6 +16,30 @@ For each asset, record:
 
 Do not mark an asset approved based only on a search-result snippet or collection-level licence statement. Check the individual asset page and any separate texture, model or animation terms.
 
+## Verified first-pack assets
+
+| Asset | Category | Creator / publisher | Licence | Use in project | Source |
+|---|---|---|---|---|---|
+| Urban Street 01 | HDRI / overcast urban light | Andreas Mischok / Poly Haven | CC0 | City street diffuse lighting and reflections | https://polyhaven.com/a/urban_street_01 |
+| Urban Street 03 | HDRI / overcast residential light | Andreas Mischok / Poly Haven | CC0 | Residential streets, soft daylight | https://polyhaven.com/a/urban_street_03 |
+| Modern Buildings | HDRI / golden-hour city light | Greg Zaal / Poly Haven | CC0 | Glass/concrete riverfront and warm sunrise | https://polyhaven.com/a/modern_buildings |
+| Modern Evening Street | HDRI / dusk city light | Grzegorz Wronkowski / Poly Haven | CC0 | European office street, mixed artificial and natural light | https://polyhaven.com/a/modern_evening_street |
+| Concrete 049 | PBR material | ambientCG | CC0 1.0 | Candidate for concrete/stone aggregate surfaces; verify visual fit before use | https://ambientcg.com/view?id=Concrete049 |
+
+Poly Haven states that all HDRIs, textures and models on its platform are CC0, including commercial use and redistribution: https://polyhaven.com/license
+ambientCG states that downloadable assets are CC0 1.0, including commercial use and inclusion of raw files in games: https://docs.ambientcg.com/license/
+
+The source pages are verified, but the binary files have not yet been downloaded into this repository. See [STARTER_PACK_01.md](STARTER_PACK_01.md).
+
+## Pending source collections
+
+| Category | Source collection | Status |
+|---|---|---|
+| Trees | https://polyhaven.com/models/nature/trees | Individual model selection pending |
+| Architecture | https://polyhaven.com/models/architecture | Individual model selection pending |
+| Urban HDRIs | https://polyhaven.com/hdris/streets-town | Additional daylight/night presets pending |
+| Community models | https://sketchfab.com/ | Individual CC0/CC BY licence checks required |
+
 ## Target environment packs
 
 | Pack | Required contents | Initial target |
@@ -29,18 +53,10 @@ Do not mark an asset approved based only on a search-result snippet or collectio
 | Vehicles | Unbranded cars, vans, buses, bicycles | 8–12 |
 | People | Pedestrians with varied clothing, body types and walk cycles | 5–10 |
 | Animals | Dogs, birds, cats and common urban wildlife | 5–8 |
-| Materials | Asphalt, concrete, brick, plaster, glass, metal, paving | 15–25 |
+| Materials | Asphalt, concrete, brick, plaster, glass, stone, paving | 15–25 |
 | Lighting | Clear noon, overcast, golden hour, blue hour, night | 5 profiles |
 
 These are collection targets, not claims that assets have already been sourced.
-
-## Asset register
-
-No third-party assets have been approved yet.
-
-| ID | Asset | Category | Creator | Licence | Source | Runtime format | Status |
-|---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | Awaiting verification |
 
 ## Technical acceptance
 - Preferred exchange/runtime format: glTF 2.0 / GLB.

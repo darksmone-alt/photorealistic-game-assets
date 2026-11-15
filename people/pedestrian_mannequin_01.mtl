@@ -1,0 +1,12 @@
+newmtl skin
+Kd .62 .42 .30
+Pr .82
+newmtl jacket
+Kd .12 .19 .24
+Pr .78
+newmtl trousers
+Kd .10 .11 .13
+Pr .86
+newmtl shoe
+Kd .025 .025 .028
+Pr .92

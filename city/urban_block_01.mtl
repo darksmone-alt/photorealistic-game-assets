@@ -1,0 +1,68 @@
+newmtl asphalt
+Kd 0.12 0.13 0.14
+Pr 0.92
+Pm 0.0
+newmtl paving
+Kd 0.48 0.47 0.44
+Pr 0.85
+newmtl kerb
+Kd 0.62 0.61 0.57
+Pr 0.8
+newmtl roadmark
+Kd 0.88 0.84 0.65
+Pr 0.7
+newmtl plaster
+Kd 0.68 0.60 0.48
+Pr 0.82
+newmtl brick
+Kd 0.42 0.19 0.13
+Pr 0.86
+newmtl stone
+Kd 0.52 0.49 0.43
+Pr 0.8
+newmtl roofdark
+Kd 0.13 0.14 0.15
+Pr 0.88
+newmtl windowblue
+Kd 0.10 0.24 0.31
+Pr 0.18
+Pm 0.65
+newmtl shopglass
+Kd 0.08 0.19 0.22
+Pr 0.12
+Pm 0.7
+newmtl glassfacade
+Kd 0.16 0.27 0.34
+Pr 0.16
+Pm 0.72
+newmtl metal
+Kd 0.23 0.25 0.26
+Pr 0.32
+Pm 0.75
+newmtl lampmetal
+Kd 0.09 0.10 0.11
+Pr 0.4
+Pm 0.65
+newmtl lampglass
+Kd 0.95 0.77 0.42
+Pr 0.2
+Pm 0.15
+newmtl bark
+Kd 0.20 0.11 0.06
+Pr 0.95
+newmtl foliage0
+Kd 0.12 0.24 0.10
+Pr 0.9
+newmtl foliage1
+Kd 0.17 0.31 0.12
+Pr 0.9
+newmtl foliage2
+Kd 0.22 0.37 0.15
+Pr 0.9
+newmtl carpaint
+Kd 0.16 0.19 0.22
+Pr 0.28
+Pm 0.35
+newmtl tyre
+Kd 0.025 0.025 0.025
+Pr 0.98

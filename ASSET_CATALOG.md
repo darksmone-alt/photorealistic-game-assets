@@ -40,6 +40,8 @@ The source pages are verified, but the binary files have not yet been downloaded
 | Road intersection 01 | Roads | OBJ + MTL | Original procedural geometry | [Model](roads/road_intersection_01.obj) |
 | Street tree 01 | Nature | OBJ + MTL | Original procedural geometry | [Model](nature/street_tree_01.obj) |
 | European hatchback 01 | Vehicle | OBJ + MTL | Original procedural geometry | [Model](vehicles/european_hatchback_01.obj) |
+| Pedestrian mannequin 01 | People | OBJ + MTL | Original procedural geometry; unrigged blockout | [Model](people/pedestrian_mannequin_01.obj) |
+| City pigeon 01 | Animals | OBJ + MTL | Original procedural geometry; blockout | [Model](animals/city_pigeon_01.obj) |
 
 These are editable starter meshes, not photorealistic scans. See [ASSET_PACK_01.md](ASSET_PACK_01.md) for contents, import notes and quality limitations.
 

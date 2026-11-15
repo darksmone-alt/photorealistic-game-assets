@@ -12,6 +12,9 @@ The following model files are now stored in this repository. They are original p
 | Street tree 01 | [nature/street_tree_01.obj](nature/street_tree_01.obj) | [MTL](nature/street_tree_01.mtl) | Procedural trunk and layered foliage |
 | European hatchback 01 | [vehicles/european_hatchback_01.obj](vehicles/european_hatchback_01.obj) | [MTL](vehicles/european_hatchback_01.mtl) | Generic unbranded car blockout with glass and wheels |
 
+| Pedestrian mannequin 01 | [people/pedestrian_mannequin_01.obj](people/pedestrian_mannequin_01.obj) | [MTL](people/pedestrian_mannequin_01.mtl) | Basic unrigged pedestrian blockout |
+| City pigeon 01 | [animals/city_pigeon_01.obj](animals/city_pigeon_01.obj) | [MTL](animals/city_pigeon_01.mtl) | Simple urban bird blockout |
+
 ## Import
 
 These are Wavefront OBJ files. Keep each MTL file beside its matching OBJ. In Three.js, use OBJLoader and MTLLoader; in Blender, use File → Import → Wavefront (.obj).

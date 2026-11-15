@@ -1,0 +1,9 @@
+newmtl feather
+Kd .22 .23 .24
+Pr .9
+newmtl wing
+Kd .14 .15 .16
+Pr .92
+newmtl beak
+Kd .82 .48 .08
+Pr .55

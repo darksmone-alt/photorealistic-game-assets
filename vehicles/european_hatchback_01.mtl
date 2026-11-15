@@ -1,0 +1,17 @@
+newmtl paint
+Kd .18 .20 .22
+Pr .28
+Pm .35
+newmtl glass
+Kd .08 .17 .22
+Pr .12
+Pm .72
+newmtl lamp
+Kd .95 .82 .55
+Pr .2
+newmtl red
+Kd .55 .025 .018
+Pr .24
+newmtl rubber
+Kd .018 .018 .018
+Pr .98

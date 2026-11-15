@@ -1,0 +1,12 @@
+newmtl bark
+Kd .19 .105 .055
+Pr .95
+newmtl leaf0
+Kd .11 .24 .08
+Pr .93
+newmtl leaf1
+Kd .16 .32 .11
+Pr .93
+newmtl leaf2
+Kd .22 .39 .15
+Pr .93

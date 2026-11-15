@@ -1,0 +1,16 @@
+newmtl wall
+Kd .58 .49 .39
+Pr .85
+newmtl roof
+Kd .12 .13 .14
+Pr .9
+newmtl glass
+Kd .08 .19 .24
+Pr .16
+Pm .65
+newmtl sill
+Kd .72 .69 .61
+Pr .78
+newmtl belt
+Kd .38 .34 .29
+Pr .86

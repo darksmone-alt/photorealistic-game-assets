@@ -31,6 +31,18 @@ ambientCG states that downloadable assets are CC0 1.0, including commercial use 
 
 The source pages are verified, but the binary files have not yet been downloaded into this repository. See [STARTER_PACK_01.md](STARTER_PACK_01.md).
 
+## Original procedural models now in repository
+
+| Asset | Category | Format | Rights | File |
+|---|---|---|---|---|
+| Urban block 01 | City block scene | OBJ + MTL | Original procedural geometry | [Model](city/urban_block_01.obj) |
+| Residential block module 01 | Building facade | OBJ + MTL | Original procedural geometry | [Model](city/residential_block_module_01.obj) |
+| Road intersection 01 | Roads | OBJ + MTL | Original procedural geometry | [Model](roads/road_intersection_01.obj) |
+| Street tree 01 | Nature | OBJ + MTL | Original procedural geometry | [Model](nature/street_tree_01.obj) |
+| European hatchback 01 | Vehicle | OBJ + MTL | Original procedural geometry | [Model](vehicles/european_hatchback_01.obj) |
+
+These are editable starter meshes, not photorealistic scans. See [ASSET_PACK_01.md](ASSET_PACK_01.md) for contents, import notes and quality limitations.
+
 ## Pending source collections
 
 | Category | Source collection | Status |

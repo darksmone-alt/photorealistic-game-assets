@@ -162,7 +162,8 @@ for x, axle in [(0.92,"F"),(3.55,"R")]:
             ang=math.radians(18 + k*(144/12))
             px=x+.47*math.cos(ang); py=.48+.47*math.sin(ang)
             uv_sphere("Wheel arch lip",(px,py,z),(.045,.045,.055),PAINT)
-        # Wheel object origin precisely at hub.
+        # Wheel object origin precisely at hub; collect every component in this assembly.
+        existing_objects=set(bpy.context.scene.objects)
         bpy.ops.mesh.primitive_torus_add(major_segments=32,minor_segments=12,location=(x,.43,z),major_radius=.305,minor_radius=.105)
         tire=bpy.context.object
         finish(tire, f"wheel_{'F' if axle=='F' else 'R'}_{'L' if side<0 else 'R'}_tire", RUBBER)
@@ -179,7 +180,7 @@ for x, axle in [(0.92,"F"),(3.55,"R")]:
         cap=bpy.context.object
         finish(cap,"Alloy centre cap",CHROME,.008)
         # Combine wheel pieces into a single wheel assembly and set origin at hub.
-        wheel_parts=[tire, rim]
+        wheel_parts=[o for o in bpy.context.scene.objects if o not in existing_objects]
         # Keep all wheel components as children of a hub-empty, preserving independent control.
         hub=bpy.data.objects.new(f"wheel_{'FL' if axle=='F' and side<0 else 'FR' if axle=='F' else 'RL' if side<0 else 'RR'}",None)
         bpy.context.collection.objects.link(hub)

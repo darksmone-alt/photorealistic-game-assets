@@ -152,7 +152,6 @@ def torus_wheel(name, x, y, z, major, minor, mat):
     bpy.ops.mesh.primitive_torus_add(major_segments=32, minor_segments=12, location=(x,y,z),
                                     major_radius=major, minor_radius=minor)
     obj=bpy.context.object
-    obj.rotation_euler[0]=math.pi/2
     return finish(obj,name,mat)
 
 for x, axle in [(0.92,"F"),(3.55,"R")]:
@@ -166,10 +165,9 @@ for x, axle in [(0.92,"F"),(3.55,"R")]:
         # Wheel object origin precisely at hub.
         bpy.ops.mesh.primitive_torus_add(major_segments=32,minor_segments=12,location=(x,.43,z),major_radius=.305,minor_radius=.105)
         tire=bpy.context.object
-        tire.rotation_euler[0]=math.pi/2
         finish(tire, f"wheel_{'F' if axle=='F' else 'R'}_{'L' if side<0 else 'R'}_tire", RUBBER)
         bpy.ops.mesh.primitive_cylinder_add(vertices=32, radius=.255, depth=.16, location=(x,.43,z))
-        rim=bpy.context.object; rim.rotation_euler[0]=math.pi/2
+        rim=bpy.context.object
         finish(rim, f"wheel_{'F' if axle=='F' else 'R'}_{'L' if side<0 else 'R'}_rim", ALLOY, .012)
         # Five-spoke alloy wheel.
         for spoke in range(5):
@@ -178,11 +176,10 @@ for x, axle in [(0.92,"F"),(3.55,"R")]:
             p2=(x+.235*math.cos(a+.12),.43+.235*math.sin(a+.12),z+side*.09)
             beam("Alloy spoke",p1,p2,.025,CHROME)
         bpy.ops.mesh.primitive_cylinder_add(vertices=24,radius=.07,depth=.19,location=(x,.43,z))
-        cap=bpy.context.object; cap.rotation_euler[0]=math.pi/2
+        cap=bpy.context.object
         finish(cap,"Alloy centre cap",CHROME,.008)
         # Combine wheel pieces into a single wheel assembly and set origin at hub.
-        wheel_parts=[o for o in bpy.context.scene.objects if o.name.startswith((
-            f"wheel_{'F' if axle=='F' else 'R'}_{'L' if side<0 else 'R'}_"))]
+        wheel_parts=[tire, rim]
         # Keep all wheel components as children of a hub-empty, preserving independent control.
         hub=bpy.data.objects.new(f"wheel_{'FL' if axle=='F' and side<0 else 'FR' if axle=='F' else 'RL' if side<0 else 'RR'}",None)
         bpy.context.collection.objects.link(hub)

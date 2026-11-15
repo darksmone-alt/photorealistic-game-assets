@@ -25,6 +25,7 @@ Dense European city fabric: historic centre, perimeter-block housing, post-war r
 ## Documentation
 - [Asset catalogue](ASSET_CATALOG.md)
 - [Licence policy](LICENSES.md)
+- [First vehicle and pedestrian import test](docs/ASSET_IMPORT_TEST_01.md)
 
 ## Status
 Repository setup in progress. No third-party asset is considered approved until its individual licence and download terms have been checked.

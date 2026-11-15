@@ -1,0 +1,12 @@
+newmtl asphalt
+Kd .12 .13 .14
+Pr .94
+newmtl sidewalk
+Kd .55 .53 .49
+Pr .82
+newmtl line
+Kd .9 .86 .72
+Pr .65
+newmtl crosswalk
+Kd .92 .91 .86
+Pr .7

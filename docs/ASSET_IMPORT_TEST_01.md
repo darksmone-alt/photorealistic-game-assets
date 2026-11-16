@@ -1,6 +1,6 @@
 # Asset import test 01 – vehicle and pedestrian
 
-Status: candidate selection only. No third-party binary has been downloaded, imported into the game, or approved for release yet.
+Status: metadata screening completed for the first two vehicle candidates. Binary import and in-game validation are still blocked because the source archives have not been obtained through an authorized Sketchfab download. No third-party binary has been imported or approved for release.
 
 The existing Poly Haven surface textures remain unchanged. This test is deliberately limited to one vehicle and one humanoid so that import problems are found before building a larger asset set.
 
@@ -27,7 +27,15 @@ Checks required for each downloaded model:
 
 **Legal note:** CC BY is the model creator's stated copyright licence; it does not necessarily grant rights to use a vehicle manufacturer's protected trademarks, logos or vehicle design in every commercial context. Keep logos and badges out and obtain a separate legal review before commercial release of recognisable branded vehicles.
 
-Decision: candidates for inspection and a technical import test only; none is approved as a final production vehicle.
+### Test A1 – first two candidates: metadata screening result
+
+**BMW E30 – ROH3D:** The public model listing confirms 13.1k triangles, 7k vertices, a Download 3D Model control and CC BY. It is within the project's 30k-triangle ceiling. The public listing does not establish wheel hierarchy/pivots, material slots, texture resolution, archive size or GLB export availability. Result: **pass for polygon-count gate; pending for all file-level and visual gates**.
+
+**VW Golf II – ARDmation:** The public model listing confirms 15.2k triangles, 8.9k vertices, a Download 3D Model control, CC BY and textures made in Substance Painter. It is within the project's 30k-triangle ceiling. The public listing does not establish wheel hierarchy/pivots, material slots, texture resolution, archive size or GLB export availability. Result: **pass for polygon-count gate; pending for all file-level and visual gates**.
+
+The Sketchfab page can be inspected publicly, but its official download workflow requires an authenticated account and a permitted download request. I cannot complete that authenticated download from the connected GitHub tools. I have not used model-ripping or viewer-extraction methods. Therefore this is a documented metadata test, not a binary import test.
+
+Decision: both remain candidates for a technical import test only; neither is approved as a final production vehicle.
 
 ## Test B – humanoid
 
@@ -53,12 +61,12 @@ Alternative for a fully CC0 pipeline: [Quaternius Universal Base Characters](htt
 
 | Check | Vehicle | Humanoid |
 |---|---|---|
-| Downloaded source file recorded | pending | pending |
+| Downloaded source file recorded | blocked – authenticated download needed | pending |
 | Licence and redistribution checked | pending | pending |
 | Imports without errors | pending | pending |
 | Correct scale and orientation | pending | pending |
 | Runtime size within target | pending | pending |
-| Geometry / triangle count checked | pending | pending |
+| Geometry / triangle count checked | listing count verified; mesh not inspected | pending |
 | Materials and textures checked | pending | pending |
 | Animation / wheel behaviour tested | pending | pending |
 | In-game visual review passed | pending | pending |
@@ -66,4 +74,4 @@ Alternative for a fully CC0 pipeline: [Quaternius Universal Base Characters](htt
 
 ## Important scope
 
-This document records candidate selection and the test procedure only. It does not claim that the candidate files have been downloaded, converted, or tested. Keep the existing placeholder models out of production use. Do not alter the already integrated Poly Haven textures as part of this test.
+This document records candidate selection, metadata screening and the test procedure. It does not claim that the candidate files have been downloaded, converted, or imported into the game. Keep the existing placeholder models out of production use. Do not alter the already integrated Poly Haven textures as part of this test.
